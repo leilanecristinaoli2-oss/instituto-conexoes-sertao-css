@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos | Instituto Conexões do Sertão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+
+        <h1 class="logo">
+            <a href="index.html">Instituto Conexões do Sertão</a>
+        </h1>
+
+        <!-- Navegação para telas maiores -->
+        <nav class="navegacao-desktop" aria-label="Navegação principal">
+            <a href="index.html">Início</a>
+
+            <div class="dropdown">
+                <a href="projetos.html">Projetos</a>
+
+                <div class="dropdown-menu">
+                    <a href="#coleta">Coleta Seletiva</a>
+                    <a href="#cultura">Cultura e Memória</a>
+                    <a href="#conexoes">Conexões Comunitárias</a>
+                </div>
+            </div>
+
+            <a href="cadastro.html">Participe</a>
+        </nav>
+
+        <!-- Navegação para celulares -->
+        <details class="menu-mobile">
+            <summary aria-label="Abrir menu de navegação">
+                <span class="icone-menu">☰</span>
+                <span class="texto-menu">Menu</span>
+            </summary>
+
+            <nav aria-label="Navegação mobile">
+                <a href="index.html">Início</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="cadastro.html">Participe</a>
+            </nav>
+        </details>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="secao apresentacao-projetos">
+        <div class="container">
+
+            <h2>Nossos Projetos</h2>
+
+            <p>
+                Conheça as iniciativas desenvolvidas pelo Instituto Conexões do
+                Sertão para promover sustentabilidade, valorizar a cultura local
+                e fortalecer as comunidades de Cajazeiras e região.
+            </p>
+
+            <!-- Componente de feedback: alerta -->
+            <div class="alerta alerta-info" role="status">
+                <strong>Participe!</strong>
+                Os projetos estão abertos ao interesse de novos voluntários e apoiadores.
+            </div>
+
+        </div>
+    </section>
+
+    <section class="secao secao-destaque">
+        <div class="container">
+
+            <div class="grid projetos-grid">
+
+                <article class="card projeto-card col-4" id="coleta">
+
+                    <span class="badge badge-verde">
+                        Sustentabilidade
+                    </span>
+
+                    <h3>Coleta Seletiva e Apoio aos Catadores</h3>
+
+                    <p>
+                        O projeto promove ações de educação ambiental e incentivo
+                        à coleta seletiva, além de apoiar grupos e associações de
+                        catadores de materiais recicláveis, contribuindo para a
+                        sustentabilidade e para a valorização desses trabalhadores.
+                    </p>
+
+                    <a class="botao" href="cadastro.html">
+                        Quero participar
+                    </a>
+
+                </article>
+
+                <article class="card projeto-card col-4" id="cultura">
+
+                    <span class="badge badge-terra">
+                        Cultura
+                    </span>
+
+                    <h3>Cultura e Memória de Cajazeiras</h3>
+
+                    <p>
+                        A iniciativa busca preservar e valorizar a história, a
+                        cultura e a identidade de Cajazeiras por meio do apoio a
+                        atividades culturais, espaços de memória e ações de
+                        divulgação do patrimônio local.
+                    </p>
+
+                    <a class="botao" href="cadastro.html">
+                        Quero participar
+                    </a>
+
+                </article>
+
+                <article class="card projeto-card col-4" id="conexoes">
+
+                    <span class="badge badge-neutro">
+                        Comunidade
+                    </span>
+
+                    <h3>Conexões Comunitárias</h3>
+
+                    <p>
+                        O projeto aproxima pessoas, famílias e comunidades de
+                        instituições de ensino e outros parceiros, criando
+                        oportunidades de colaboração a partir das necessidades
+                        identificadas pela própria comunidade.
+                    </p>
+
+                    <a class="botao" href="cadastro.html">
+                        Quero participar
+                    </a>
+
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="secao">
+        <div class="container grid">
+
+            <article class="card col-6">
+                <h2>Seja voluntário</h2>
+
+                <p>
+                    Pessoas interessadas em colaborar podem participar das
+                    atividades dos projetos do Instituto em ações comunitárias,
+                    educativas, culturais e ambientais.
+                </p>
+
+                <a class="botao" href="cadastro.html">
+                    Quero ser voluntário
+                </a>
+            </article>
+
+            <article class="card col-6">
+                <h2>Apoie nossas iniciativas</h2>
+
+                <p>
+                    As contribuições ajudam a fortalecer as ações sociais,
+                    ambientais e culturais do Instituto. Interessados em
+                    contribuir financeiramente podem registrar seu interesse
+                    no formulário.
+                </p>
+
+                <a class="botao" href="cadastro.html">
+                    Quero apoiar
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Componente demonstrativo de feedback -->
+    <div class="toast" role="status" aria-live="polite">
+        <span class="toast-icone">✓</span>
+
+        <div>
+            <strong>Projetos disponíveis</strong>
+            <p>Escolha uma iniciativa e participe das ações do Instituto.</p>
+        </div>
+    </div>
+
+</main>
+
+<footer class="rodape">
+    <div class="container">
+        <p>Instituto Conexões do Sertão — Cajazeiras, Paraíba.</p>
+        <p>© 2026 Instituto Conexões do Sertão. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
